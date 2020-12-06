@@ -1,0 +1,255 @@
+body{
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+    /*Navigation Bar*/
+.bg-light{
+    background-color: #FFFFFF!important;
+}
+.navbar-brand {
+    text-transform: none!important;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navbar-nav{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 12px!important;
+}
+.nav-link{
+    border-bottom: 2px solid transparent;
+}
+.nav-link:active,.nav-link:hover,.nav-link:focus{
+    color: #ffa853 !important;
+    border-color: #ffa853;
+}
+.navbar-light .navbar-toggler{
+    color: black!important;
+    background-color: ghostwhite;
+    font-weight: bold;
+    font-size: 15px!important;
+    border: none!important;
+}
+.dropdown-item{
+    font-size: 12px!important;
+}
+   /*Carousel*/
+ .carousel-inner {
+    max-height: 500px;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-color: #ffa853 !important;
+}
+.carousel-caption{
+   position: absolute;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+
+.carousel-caption span{
+    font-size: 60px;
+    font-weight: bold;
+}
+       /*About  Us*/
+.about-section{
+    min-height: 500px;
+}
+.about-section h2{
+    font-size: 40px!important;
+}
+.about-section .about-description h2{
+    font-size: 24px!important;
+}
+.about-section .about-description p {
+    font-size: 15px ;
+    font-weight: normal ;
+    line-height: 2rem ;
+    color: #a1a7ac;
+}
+    /*Services*/
+.service{
+    min-height: 600px;
+}
+.service h1{
+    color: #feb607;
+}
+.service h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.service h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.service h6{
+    font-size: 15px;
+    color: #a1a7ac;
+}
+     /*Review*/
+.reviews{
+    min-height: 250px;
+    background-color: #1e272e;
+}
+.reviews h6{
+    color: #ffa853;
+    font-size: 12px!important;
+}
+     /*offered-services*/
+.offered-services{
+    min-height: 750px;
+}
+.offered-services p,.blog-post p{
+    color: #a1a7ac;
+}
+.offered-services .card{
+box-shadow: 0 8px 6px -6px rgba(0,0,0,0.2);
+}
+.offered-services .card-body{
+    background-color: #f3f5f7;
+}
+/*imageGrid-area*/
+.imageGrid-area{
+    background-color: #f3f5f7;
+    min-height: 500px;
+}
+/*Subscriber form*/
+.form{
+    min-height: 300px;
+    background-color: #0fbcf9;
+}
+.form .subscribe::placeholder{
+    color: white;
+}
+ .form-control{
+    width: 100%!important;
+     border: none;
+}
+.form-control:focus{
+    box-shadow: unset!important;
+    border-color: unset!important;
+}
+/*Blog Post*/
+ .blog-post {
+     min-height: 1000px;
+ }
+ .blog-post h3{
+     border-bottom: 1px solid black;
+     font-size: 20px!important;
+ }
+.blog-post p{
+    font-size: 12px!important;
+    word-spacing: 3px;
+}
+.blog-post .user{
+    color: #70767b;
+}
+.blog-post .card-body div{
+    font-size: 12px!important;
+}
+/*Footer-Area*/
+.footer{
+    min-height: 500px;
+    background-color: #1e272e;
+}
+
+.circle{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #ffa853;
+    border-radius: 50%;
+}
+
+.footer .fa{
+    line-height: 50px;
+}
+.footer .content{
+    color: #5a646b;
+}
+
+.footer .bottom-area i{
+    font-size: 15px!important;
+}
+.footer .logo {
+    border-top: 1px solid #5a646b;
+}
+.footer  p{
+    font-size: 15px;
+}
+.footer .arrow {
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #2e373e;
+
+}
+.arrow .fa{
+    line-height: 40px;
+}
+@media screen and (max-width: 900px){
+   .collapsing,.show{
+        position: absolute !important;
+        z-index: 9999;
+        width: 100%;
+        top: 62px;
+        left:0px;
+        background:white;
+    }
+    .dropdown{
+        position: relative!important;
+        top: 0px;
+        margin-left: 0px!important;
+        padding-right: 10px!important;
+    }
+    .dropdown-menu{
+        position: relative!important;
+        top: 0px;
+         min-width: 100%;
+        border: none!important;
+    }
+    .carousel-caption span{
+        font-size: 40px;
+    }
+    .nav-last{
+        padding-bottom: 7px;
+    }
+    .navbar-brand{
+        padding-left: 5px!important;
+        font-size: 22px;
+    }
+
+    .navbar{
+        padding: .9rem 1rem .9rem !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .carousel-caption span{
+        font-size: 25px;
+    }
+    .carousel-caption{
+        transform: translate(0,-120%);
+    }
+
+    .footer .d-flex{
+        display: block!important;
+        text-align: center;
+    }
+
+    .footer .content{
+        margin-top: 20px!important;
+    }
+    .footer .circle{
+        margin-left: 10px;
+    }
+
+}
